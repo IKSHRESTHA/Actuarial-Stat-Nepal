@@ -14,7 +14,7 @@ website:
 
 format:
   html:
-    theme: [cosmo,custom.scss]
+    theme: [sandstone,custom.scss]
     toc: true
 
 

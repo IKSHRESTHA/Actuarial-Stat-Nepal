@@ -29,6 +29,8 @@ theme_set(theme_minimal(base_size = 24, base_family = "Atkinson Hyperlegible"))
 
 
 #| label: prep-data
+#| echo: false
+#| include: false
 #| message: false
 
 

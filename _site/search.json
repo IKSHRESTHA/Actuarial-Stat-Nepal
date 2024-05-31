@@ -4,7 +4,10 @@
     "href": "index.html",
     "title": "Actuarial Stat Nepal",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "about.html",
@@ -84,6 +87,16 @@
     "text": "Sports: Football and Cricket\nTraveling: Especially hiking\nMusic: Especially lo-fi genre",
     "crumbs": [
       "About"
+    ]
+  },
+  {
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "Actuarial Stat Nepal",
+    "section": "",
+    "text": "#| label: prep-data\n#| echo: false\n#| include: false\n#| message: false\n\n\n\n# Define the possible values for each attribute\nages &lt;- c(\"&lt;25\",\"25-35\",\"35+\")\ngenders &lt;- c('male', 'female', 'other')\ndistricts &lt;- c('Kathmandu', 'Bhaktapur', 'Lalitpur')\nprofessional_associations &lt;- c('SOA', 'IFOA', 'CAS', 'IAI', 'Other')\ntypes_of_membership &lt;- c('student', 'working', 'honorary', 'associate', 'fellow')\nemployment_statuses &lt;- c('working', 'still unemployed', 'student')\n\n# Generate 51 random samples\nset.seed(123) # for reproducibility\ndf &lt;- tibble(\n  age = sample(ages, 51, replace = TRUE),\n  gender = sample(genders, 51, replace = TRUE),\n  district = sample(districts, 51, replace = TRUE),\n  professional_association = sample(professional_associations, 51, replace = TRUE),\n  type_of_membership = sample(types_of_membership, 51, replace = TRUE),\n  employment_status = sample(employment_statuses, 51, replace = TRUE)\n)\ncurrent_date = Sys.Date()\n\n\n\nThis dashboard displays statistics for:\n\n\n\nActuarial Society\nActuarial Society of Nepal\n\n\nCountry\nNepal\n\n\nYear-Month\n2024-05-31\n\n\n\n\nIn 2024-05-31 the members breakdown in terms of membership type was as follows:\n\n\n\nFellow\n13\n\n\nassociate\n21\n\n\nstudent\n16\n\n\n\n\n\n\n\n\n\n\nDisclaimer\n\n\n\n\n\nThe data presented in this dashboard does not represent the exact number of the actuarial community in Nepal. Instead, it reflects the members of the Actuarial Society of Nepal. The information is based on the membership records of the Actuarial Society of Nepal and may not include all actuaries residing or working in Nepal.",
+    "crumbs": [
+      "Dashoard"
     ]
   }
 ]
