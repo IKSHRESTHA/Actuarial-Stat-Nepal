@@ -1,9 +1,93 @@
 ---
-title: "About"
+title: "Author Information"
+author: 
+  name: "Krishna Kumar Shrestha"
+  email: "krishnakumarshrestha00@gmail.com"
+  linkedin: "https://www.linkedin.com/in/krishnakumarshrestha/"
 ---
 
-About this site
+# Krishna Kumar Shrestha
 
-```{r}
-1 + 1
-```
+![Krishna](images/krishna.jpg){ width=75px height=95px style="float: right; margin-top: 15px;" }  
+
+
+    
+        
+        
+ 
+
+
+
+
+## About Me
+
+I am a data scientist with a passion for analyzing and visualizing data to uncover insights and drive decision-making. With a background in statistics and machine learning, I enjoy solving complex problems and delivering actionable solutions.
+
+
+## Experience
+
+### Secretary
+- **Actuarial Society of Nepal**
+- Kathmandu, Nepal
+- July 2022 – Present
+
+### Senior Consultant
+- **Principal Risk Consulting**
+- Kathmandu, Nepal
+- December 2022 – Present
+
+### Consultant
+- **eBeema**
+- Kathmandu, Nepal
+- June 2022 - August 2023
+
+### Senior Assistant
+- **IGI Prudential General Insurance**
+- Kathmandu, Nepal
+- October 2021 – June 2022
+
+### Intern
+- **Numeric Mind**
+- Kathmandu, Nepal
+- July 2020 - December 2020
+
+## Education
+
+- **Bachelor in Mathematical Science (Actuarial Science)**
+  - Tribhuvan University
+  - Kathmandu, Nepal
+  - 2017 – 2021
+  - Cumulative GPA: 2.68/4
+  - Additional Courses:
+    - Research Paper: Estimating R Number for Nepal: Key Indicator for Covid-19 Situation. This Research was awarded as the winner of Institute of Faculty of Actuaries hackathon 2021.
+    - Relevant coursework: Predicting Air Quality of Kathmandu using SVM Model and Misinformation in Covid-19 Crisis
+    - Certified as Data Analyst Professional in 2023
+    - Finalist in “Kislay Actuarial Education Hackathon 2020”
+
+## Skills
+
+- **Software Tools:** Excel | R | VBA | SQL | Python | git
+- **Actuarial Principles:** Employee Benefit Valuation | IBNR Reserving | Own Risk Solvency
+- **Communication:** Written and Oral communication: English, Nepali, Newari
+
+## Professional Development
+
+- **Institute of Faculty of Actuaries (IFOA)**
+  - CS1, CM1, CB1, CB2, CB3, CP3, Stage1
+- **Data Camp**
+  - Data Analyst with R Track [77 hrs.]
+  - Data Scientist with R Track [88 hrs.]
+- **World Bank Training**
+  - Risk Based Capital training
+  - Own Risk Solvency training
+
+## Interests
+
+- **Sports:** Football and Cricket
+- **Traveling:** Especially hiking
+- **Music:** Especially lo-fi genre
+
+## Contact Me
+
+- **Email:** [krishnakumarshrestha00@gmail.com](mailto:krishnakumarshrestha00@gmail.com)
+- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/krishnakumarshrestha/)
