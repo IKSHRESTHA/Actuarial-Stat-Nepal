@@ -3,33 +3,86 @@ title: "Actuarial Stat Nepal"
 format: 
   dashboard:
     logo: "images/logoasn.png" 
-    orientation: columns
+fig-width: 10
+fig-asp: 0.3
+theme: [sandstone, style.scss]
 ---
-
-## column {width="35%"}
-
-placeholder text for column 1
 
 ```{r,loadpackages}
 #| echo: false
 #| include: false
+#| message: false
 library(tidyverse)
+# Load necessary library
+library(tidyverse)
+library(scales)
+library(DT)
+library(gt)
+theme_set(theme_minimal(base_size = 24, base_family = "Atkinson Hyperlegible"))
+
+
+
+
 ```
 
-```{r,printstarwars}
-head(starwars)
+```{r}
+
+
+#| label: prep-data
+#| message: false
+
+
+
+# Define the possible values for each attribute
+ages <- c("<25","25-35","35+")
+genders <- c('male', 'female', 'other')
+districts <- c('Kathmandu', 'Bhaktapur', 'Lalitpur')
+professional_associations <- c('SOA', 'IFOA', 'CAS', 'IAI', 'Other')
+types_of_membership <- c('student', 'working', 'honorary', 'associate', 'fellow')
+employment_statuses <- c('working', 'still unemployed', 'student')
+
+# Generate 51 random samples
+set.seed(123) # for reproducibility
+df <- tibble(
+  age = sample(ages, 51, replace = TRUE),
+  gender = sample(genders, 51, replace = TRUE),
+  district = sample(districts, 51, replace = TRUE),
+  professional_association = sample(professional_associations, 51, replace = TRUE),
+  type_of_membership = sample(types_of_membership, 51, replace = TRUE),
+  employment_status = sample(employment_statuses, 51, replace = TRUE)
+)
+current_date = Sys.Date()
+
+
+
+
+
 ```
 
-## column {width="65%"}
+#  {.sidebar}
 
-### Row {height="10%"}
+This dashboard displays statistics for: 
 
-placeholder text for column 2, row 1
+|                      |                            |
+|----------------------|----------------------------|
+| **Actuarial Society** | Actuarial Society of Nepal |
+| **Country**          | Nepal                      |
+| **Year-Month**       | `{r} current_date`           |
 
-### Row {height = "70%"} 
+------------------------------------------------------------------------
 
-placeholder text for column 2, row 2
 
-### Row {height = "20%"} 
+In `{r} current_date` the members breakdown in terms of membership type was as follows:
 
-placeholder text for column 2, row 3
+|                          |     |
+|--------------------------|-----|
+| **Fellow** |  13 |
+| **associate**            |  21 |
+| **student**               |  16 |
+
+------------------------------------------------------------------------
+::: {.callout-note collapse="true"}
+## Disclaimer
+
+The data presented in this dashboard does not represent the exact number of the actuarial community in Nepal. Instead, it reflects the members of the Actuarial Society of Nepal. The information is based on the membership records of the Actuarial Society of Nepal and may not include all actuaries residing or working in Nepal.
+:::
