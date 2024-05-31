@@ -5,7 +5,7 @@ format:
     logo: "images/logoasn.png" 
 fig-width: 10
 fig-asp: 0.3
-theme: [sandstone, style.scss]
+theme: [sandstone, custom.scss]
 ---
 
 ```{r,loadpackages}
