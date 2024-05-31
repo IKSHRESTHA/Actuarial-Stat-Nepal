@@ -18,6 +18,7 @@ library(tidyverse)
 library(scales)
 library(DT)
 library(gt)
+library(plotly)
 theme_set(theme_minimal(base_size = 24, base_family = "Atkinson Hyperlegible"))
 
 
@@ -88,3 +89,143 @@ In `{r} current_date` the members breakdown in terms of membership type was as f
 
 The data presented in this dashboard does not represent the exact number of the actuarial community in Nepal. Instead, it reflects the members of the Actuarial Society of Nepal. The information is based on the membership records of the Actuarial Society of Nepal and may not include all actuaries residing or working in Nepal.
 :::
+
+
+
+
+
+# Member Stats
+
+
+
+```{r}
+#| label: all-values
+#| results: hide
+
+total_members <-nrow(df)
+
+male <- df %>%
+  count(gender) %>%
+mutate(p = n / sum(n)) |>
+filter(gender =="male") %>%
+pull(p)
+
+female <- df %>%
+  count(gender) %>%
+mutate(p = n / sum(n)) |>
+filter(gender =="female") %>%
+pull(p)
+
+
+```
+
+## Row {height="30%"}
+
+```{r}
+#| content: valuebox
+#| title: "Total Member"
+
+list(
+icon="",
+color="primary",
+value= total_members
+)
+
+
+```
+
+```{r}
+#| content: valuebox
+#| title: "male %"
+
+list(
+icon="male",
+colour="red",
+value=label_percent(accuracy = 0.1)(male)
+)
+
+```
+
+```{r}
+#| content: valuebox
+#| title: "female %"
+
+list(
+icon="female",
+colour="red",
+value=label_percent(accuracy = 0.1)(female)
+)
+
+```
+
+
+
+## Row {height="70%"}
+
+### Column {width="60%"}
+
+
+
+```{r}
+#| title: Professional Association
+
+df |>
+  count(professional_association) |>
+  mutate(p = n / sum(n)) |>
+  gt() |>
+  fmt_percent(
+    columns = p,
+    decimals = 1
+  ) |>
+  tab_style(
+    style = cell_text(color = "#ae8b2d", weight = "bold"),
+    locations = cells_body(
+      columns = everything(),
+      rows = professional_association == "SOA"
+    )
+  ) |>
+  tab_style(
+    style = cell_text(color = "#0e2635", weight = "bold"),
+    locations = cells_body(
+      columns = everything(),
+      rows = professional_association == "IFOA"
+    )
+  ) |>
+  tab_style(
+    style = cell_text(color = "#0e3635", weight = "bold"),
+    locations = cells_body(
+      columns = everything(),
+      rows = professional_association == "CAS"
+    )
+  ) |>
+  tab_style(
+    style = cell_text(color = "#0e2685", weight = "bold"),
+    locations = cells_body(
+      columns = everything(),
+      rows = professional_association == "Other"
+    )
+  ) |>
+  cols_label(
+    professional_association = "",
+    n = "Number of<br>Member",
+    p = "Proportion of<br>ASN Member",
+    .fn = md
+  )
+```
+
+### Column {width="40%"}
+
+```{r}
+#| title: District 
+
+
+district_plot <- ggplot(df, aes(x = district, fill = district)) +
+  geom_bar() +
+  labs(title = "Distribution by District", x = "District", y = "Count") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5), legend.position = "none") +
+  scale_fill_manual(values = c("Kathmandu" = "#17BECF", "Bhaktapur" = "#BCBD22", "Lalitpur" = "#7F7F7F"))
+
+ggplotly(district_plot)
+```
+
