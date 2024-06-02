@@ -339,8 +339,13 @@ value=4
 
 library(rvest)
 library(dplyr)
+library(xml2)
+library(httr)
 url <- 'https://nia.gov.np'
-webpage <- read_html(url)
+
+response <- GET(url, config = config(ssl_verifypeer = FALSE))
+content <- content(response, "text")
+webpage <- read_html(content)
 # Extract the table header
 table_head <- webpage %>%
   html_node("thead") %>%
