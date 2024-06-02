@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
         
       </div>
     </div>
-<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-member-stats" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#member-stats" data-scrolling="false" href="#member-stats" aria-controls="member-stats" aria-selected="true"><span class="nav-link-text">Member Stats</span></a></li></ul></div></div>
+<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-member-stats" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#member-stats" data-scrolling="false" href="#member-stats" aria-controls="member-stats" aria-selected="true"><span class="nav-link-text">Member Stats</span></a></li><li class="nav-item" role="presentation"><a id="tab-insurance-stat" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#insurance-stat" data-scrolling="false" href="#insurance-stat" aria-controls="insurance-stat" aria-selected="false"><span class="nav-link-text">Insurance stat</span></a></li></ul></div></div>
 </nav>
 </header>
 <div id="quarto-search-results"></div>
@@ -118,9 +118,10 @@ ul.task-list li input[type="checkbox"] {
 <div class="tab-content bslib-grid html-fill-item html-fill-container" style="display: grid; grid-template-columns: minmax(3em, 1fr);
 grid-auto-rows: minmax(0, 1fr);">
 <div id="member-stats" class="dashboard-page tab-pane show active html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-member-stats">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 30fr) minmax(3em, 70fr); grid-auto-columns: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr) minmax(3em, 1fr);
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 20fr) minmax(3em, 80fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 35fr) minmax(3em, 35fr) minmax(3em, 30fr);
 grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
 <div class="card valuebox cell html-fill-item html-fill-container bslib-card bslib-value-box bg-primary showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
 <div class="card-body html-fill-item html-fill-container">
 <div data-icon="" class="html-fill-item html-fill-container value-box-grid">
@@ -137,12 +138,14 @@ Total Member
 </div>
 </div>
 </div>
-<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card valuebox cell html-fill-item html-fill-container bslib-card bslib-value-box bg-secondary showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card valuebox cell html-fill-item html-fill-container bslib-card bslib-value-box bg-secondary showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
 <div class="card-body html-fill-item html-fill-container">
-<div data-icon="male" class="html-fill-item html-fill-container value-box-grid">
+<div data-icon="" class="html-fill-item html-fill-container value-box-grid">
 <div class="value-box-showcase html-fill-item html-fill-container">
 
-<i class="bi bi-male"></i></div>
+<i class="bi bi-"></i></div>
 <div class="value-box-area">
 <p class="value-box-title">
 male %
@@ -153,12 +156,14 @@ male %
 </div>
 </div>
 </div>
-<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card valuebox cell html-fill-item html-fill-container bslib-card bslib-value-box bg-secondary showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card valuebox cell html-fill-item html-fill-container bslib-card bslib-value-box bg-info showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
 <div class="card-body html-fill-item html-fill-container">
-<div data-icon="female" class="html-fill-item html-fill-container value-box-grid">
+<div data-icon="" class="html-fill-item html-fill-container value-box-grid">
 <div class="value-box-showcase html-fill-item html-fill-container">
 
-<i class="bi bi-female"></i></div>
+<i class="bi bi-"></i></div>
 <div class="value-box-area">
 <p class="value-box-title">
 female %
@@ -170,6 +175,7 @@ female %
 </div>
 </div>
 <script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
 </div>
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 60fr) minmax(3em, 40fr);
 grid-auto-rows: minmax(0, 1fr);">
@@ -637,29 +643,29 @@ ASN Member</th>
 </thead>
 <tbody class="gt_table_body">
 <tr class="odd">
-<td class="gt_row gt_left" headers="professional_association" style="color: #0E3635; font-weight: bold">CAS</td>
-<td class="gt_row gt_right" headers="n" style="color: #0E3635; font-weight: bold">8</td>
-<td class="gt_row gt_right" headers="p" style="color: #0E3635; font-weight: bold">15.7%</td>
+<td class="gt_row gt_left" headers="professional_association" style="color: #0E3635; font-weight: bold; border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">CAS</td>
+<td class="gt_row gt_right" headers="n" style="color: #0E3635; font-weight: bold; border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">8</td>
+<td class="gt_row gt_right" headers="p" style="color: #0E3635; font-weight: bold; border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">15.7%</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left" headers="professional_association">IAI</td>
-<td class="gt_row gt_right" headers="n">11</td>
-<td class="gt_row gt_right" headers="p">21.6%</td>
+<td class="gt_row gt_left" headers="professional_association" style="border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">IAI</td>
+<td class="gt_row gt_right" headers="n" style="border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">11</td>
+<td class="gt_row gt_right" headers="p" style="border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">21.6%</td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_left" headers="professional_association" style="color: #0E2635; font-weight: bold">IFOA</td>
-<td class="gt_row gt_right" headers="n" style="color: #0E2635; font-weight: bold">8</td>
-<td class="gt_row gt_right" headers="p" style="color: #0E2635; font-weight: bold">15.7%</td>
+<td class="gt_row gt_left" headers="professional_association" style="color: #0E2635; font-weight: bold; border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">IFOA</td>
+<td class="gt_row gt_right" headers="n" style="color: #0E2635; font-weight: bold; border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">8</td>
+<td class="gt_row gt_right" headers="p" style="color: #0E2635; font-weight: bold; border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">15.7%</td>
 </tr>
 <tr class="even">
-<td class="gt_row gt_left" headers="professional_association" style="color: #0E2685; font-weight: bold">Other</td>
-<td class="gt_row gt_right" headers="n" style="color: #0E2685; font-weight: bold">14</td>
-<td class="gt_row gt_right" headers="p" style="color: #0E2685; font-weight: bold">27.5%</td>
+<td class="gt_row gt_left" headers="professional_association" style="color: #0E2685; font-weight: bold; border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">Other</td>
+<td class="gt_row gt_right" headers="n" style="color: #0E2685; font-weight: bold; border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">14</td>
+<td class="gt_row gt_right" headers="p" style="color: #0E2685; font-weight: bold; border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">27.5%</td>
 </tr>
 <tr class="odd">
-<td class="gt_row gt_left" headers="professional_association" style="color: #AE8B2D; font-weight: bold">SOA</td>
-<td class="gt_row gt_right" headers="n" style="color: #AE8B2D; font-weight: bold">10</td>
-<td class="gt_row gt_right" headers="p" style="color: #AE8B2D; font-weight: bold">19.6%</td>
+<td class="gt_row gt_left" headers="professional_association" style="color: #AE8B2D; font-weight: bold; border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">SOA</td>
+<td class="gt_row gt_right" headers="n" style="color: #AE8B2D; font-weight: bold; border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">10</td>
+<td class="gt_row gt_right" headers="p" style="color: #AE8B2D; font-weight: bold; border-top-width: 3px; border-top-style: solid; border-top-color: black; border-left-width: 1px; border-left-style: solid; border-left-color: black; border-right-width: 1px; border-right-style: solid; border-right-color: black; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: black">19.6%</td>
 </tr>
 </tbody>
 </table>
@@ -680,7 +686,665 @@ ASN Member</th>
 <div class="card-body html-fill-item html-fill-container">
 <div class="cell-output-display html-fill-item html-fill-container">
 <div class="plotly html-widget html-fill-item html-fill-container" id="htmlwidget-d8b1ae75427278515fd0" style="width:100%;height:195px;"></div>
-<script type="application/json" data-for="htmlwidget-d8b1ae75427278515fd0">{"x":{"data":[{"orientation":"v","width":0.89999999999999991,"base":0,"x":[1],"y":[22],"text":"count: 22<br />district: Bhaktapur<br />district: Bhaktapur","type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(188,189,34,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Bhaktapur","legendgroup":"Bhaktapur","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":0.90000000000000013,"base":0,"x":[2],"y":[10],"text":"count: 10<br />district: Kathmandu<br />district: Kathmandu","type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(23,190,207,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Kathmandu","legendgroup":"Kathmandu","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":0.90000000000000036,"base":0,"x":[3],"y":[19],"text":"count: 19<br />district: Lalitpur<br />district: Lalitpur","type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(127,127,127,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Lalitpur","legendgroup":"Lalitpur","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":57.887366818873673,"r":7.3059360730593621,"b":54.307458143074598,"l":37.260273972602747},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"title":{"text":"Distribution by District","font":{"color":"rgba(0,0,0,1)","family":"","size":17.534246575342465},"x":0.5,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.40000000000000002,3.6000000000000001],"tickmode":"array","ticktext":["Bhaktapur","Kathmandu","Lalitpur"],"tickvals":[1,2,3],"categoryorder":"array","categoryarray":["Bhaktapur","Kathmandu","Lalitpur"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"District","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-1.1000000000000001,23.100000000000001],"tickmode":"array","ticktext":["0","5","10","15","20"],"tickvals":[0,5,10,15.000000000000002,20],"categoryorder":"array","categoryarray":["0","5","10","15","20"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"Count","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"13d766e352e9":{"x":{},"fill":{},"type":"bar"}},"cur_data":"13d766e352e9","visdat":{"13d766e352e9":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-d8b1ae75427278515fd0">{"x":{"data":[{"orientation":"v","width":0.89999999999999991,"base":0,"x":[1],"y":[22],"text":"count: 22<br />district: Bhaktapur<br />district: Bhaktapur","type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(188,189,34,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Bhaktapur","legendgroup":"Bhaktapur","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":0.90000000000000013,"base":0,"x":[2],"y":[10],"text":"count: 10<br />district: Kathmandu<br />district: Kathmandu","type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(23,190,207,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Kathmandu","legendgroup":"Kathmandu","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"orientation":"v","width":0.90000000000000036,"base":0,"x":[3],"y":[19],"text":"count: 19<br />district: Lalitpur<br />district: Lalitpur","type":"bar","textposition":"none","marker":{"autocolorscale":false,"color":"rgba(127,127,127,1)","line":{"width":1.8897637795275593,"color":"transparent"}},"name":"Lalitpur","legendgroup":"Lalitpur","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":57.887366818873673,"r":7.3059360730593621,"b":54.307458143074598,"l":37.260273972602747},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"title":{"text":"Distribution by District","font":{"color":"rgba(0,0,0,1)","family":"","size":17.534246575342465},"x":0.5,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.40000000000000002,3.6000000000000001],"tickmode":"array","ticktext":["Bhaktapur","Kathmandu","Lalitpur"],"tickvals":[1,2,3],"categoryorder":"array","categoryarray":["Bhaktapur","Kathmandu","Lalitpur"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"District","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-1.1000000000000001,23.100000000000001],"tickmode":"array","ticktext":["0","5","10","15","20"],"tickvals":[0,5,10,15.000000000000002,20],"categoryorder":"array","categoryarray":["0","5","10","15","20"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.6529680365296811,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"Count","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"13fc1f9bfff6":{"x":{},"fill":{},"type":"bar"}},"cur_data":"13fc1f9bfff6","visdat":{"13fc1f9bfff6":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div>
+</div><div id="insurance-stat" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-insurance-stat">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 20fr) minmax(3em, 70fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="flow bslib-grid" data-layout="flow" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr) minmax(3em, 1fr) minmax(3em, 1fr) minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card valuebox cell html-fill-item html-fill-container bslib-card bslib-value-box bg-primary showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
+<div class="card-body html-fill-item html-fill-container">
+<div data-icon="" class="html-fill-item html-fill-container value-box-grid">
+<div class="value-box-showcase html-fill-item html-fill-container">
+
+<i class="bi bi-"></i></div>
+<div class="value-box-area">
+<p class="value-box-title">
+Total Life Insurance
+</p>
+<p class="value-box-value">
+14
+</p>
+</div>
+</div>
+</div>
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card valuebox cell html-fill-item html-fill-container bslib-card bslib-value-box bg-secondary showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
+<div class="card-body html-fill-item html-fill-container">
+<div data-icon="" class="html-fill-item html-fill-container value-box-grid">
+<div class="value-box-showcase html-fill-item html-fill-container">
+
+<i class="bi bi-"></i></div>
+<div class="value-box-area">
+<p class="value-box-title">
+Non Life Insurance
+</p>
+<p class="value-box-value">
+14
+</p>
+</div>
+</div>
+</div>
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card valuebox cell html-fill-item html-fill-container bslib-card bslib-value-box bg-info showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
+<div class="card-body html-fill-item html-fill-container">
+<div data-icon="" class="html-fill-item html-fill-container value-box-grid">
+<div class="value-box-showcase html-fill-item html-fill-container">
+
+<i class="bi bi-"></i></div>
+<div class="value-box-area">
+<p class="value-box-title">
+Re Insurance
+</p>
+<p class="value-box-value">
+2
+</p>
+</div>
+</div>
+</div>
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card valuebox cell html-fill-item html-fill-container bslib-card bslib-value-box bg-info showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
+<div class="card-body html-fill-item html-fill-container">
+<div data-icon="" class="html-fill-item html-fill-container value-box-grid">
+<div class="value-box-showcase html-fill-item html-fill-container">
+
+<i class="bi bi-"></i></div>
+<div class="value-box-area">
+<p class="value-box-title">
+Micro Insurance -Life
+</p>
+<p class="value-box-value">
+3
+</p>
+</div>
+</div>
+</div>
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div class="card valuebox cell html-fill-item html-fill-container bslib-card bslib-value-box bg-info showcase-left-center" data-bslib-card-init="" data-require-bs-caller="card()">
+<div class="card-body html-fill-item html-fill-container">
+<div data-icon="" class="html-fill-item html-fill-container value-box-grid">
+<div class="value-box-showcase html-fill-item html-fill-container">
+
+<i class="bi bi-"></i></div>
+<div class="value-box-area">
+<p class="value-box-title">
+Micro Insurance - Non Life
+</p>
+<p class="value-box-value">
+4
+</p>
+</div>
+</div>
+</div>
+<script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 60fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card cell html-fill-item html-fill-container bslib-card" data-title="Nepalses Insurance Overview" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-header"><div class="card-title html-fill-item html-fill-container">Nepalses Insurance Overview</div></div>
+<div class="card-body html-fill-item html-fill-container">
+<div class="cell-output-display html-fill-item html-fill-container">
+<div class="html-fill-item html-fill-container">
+<div id="yrovcsyrqf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;" class="html-fill-item html-fill-container">
+<style>#yrovcsyrqf table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#yrovcsyrqf thead, #yrovcsyrqf tbody, #yrovcsyrqf tfoot, #yrovcsyrqf tr, #yrovcsyrqf td, #yrovcsyrqf th {
+  border-style: none;
+}
+
+#yrovcsyrqf p {
+  margin: 0;
+  padding: 0;
+}
+
+#yrovcsyrqf .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: 100%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#yrovcsyrqf .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#yrovcsyrqf .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#yrovcsyrqf .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#yrovcsyrqf .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#yrovcsyrqf .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#yrovcsyrqf .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#yrovcsyrqf .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#yrovcsyrqf .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#yrovcsyrqf .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#yrovcsyrqf .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#yrovcsyrqf .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#yrovcsyrqf .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#yrovcsyrqf .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#yrovcsyrqf .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#yrovcsyrqf .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#yrovcsyrqf .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#yrovcsyrqf .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#yrovcsyrqf .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#yrovcsyrqf .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#yrovcsyrqf .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#yrovcsyrqf .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#yrovcsyrqf .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#yrovcsyrqf .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#yrovcsyrqf .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#yrovcsyrqf .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#yrovcsyrqf .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#yrovcsyrqf .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#yrovcsyrqf .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#yrovcsyrqf .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#yrovcsyrqf .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#yrovcsyrqf .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#yrovcsyrqf .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#yrovcsyrqf .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#yrovcsyrqf .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#yrovcsyrqf .gt_left {
+  text-align: left;
+}
+
+#yrovcsyrqf .gt_center {
+  text-align: center;
+}
+
+#yrovcsyrqf .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#yrovcsyrqf .gt_font_normal {
+  font-weight: normal;
+}
+
+#yrovcsyrqf .gt_font_bold {
+  font-weight: bold;
+}
+
+#yrovcsyrqf .gt_font_italic {
+  font-style: italic;
+}
+
+#yrovcsyrqf .gt_super {
+  font-size: 65%;
+}
+
+#yrovcsyrqf .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#yrovcsyrqf .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#yrovcsyrqf .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#yrovcsyrqf .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#yrovcsyrqf .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#yrovcsyrqf .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#yrovcsyrqf .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+
+<table class="gt_table table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="header gt_heading">
+<th colspan="3" class="gt_heading gt_title gt_font_normal gt_bottom_border">Insurance Indicators</th>
+</tr>
+<tr class="odd gt_col_headings">
+<th id="Indicators" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" style="font-weight: bold" scope="col">Indicators</th>
+<th id="Chaitra,2080(as on Mid April 2024)" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="font-weight: bold" scope="col">Chaitra,2080(as on Mid April 2024)</th>
+<th id="Baisakh,2081(as on Mid May 2024)" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" style="font-weight: bold" scope="col">Baisakh,2081(as on Mid May 2024)</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Life insurance policies issued (No. in thousand)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">5,087</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">5,545</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Micro life insurance policies issued&nbsp;(No. in thousand)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">2,023</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">2,281</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Non-life insurance policies issued&nbsp;(No. in thousand)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">2,262</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">2,479</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Micro non-life insurance policies issued&nbsp;(No. in thousand)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">86</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">103</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Inforce life insurance policies&nbsp;(No. in thousand)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">13,867</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">13,955</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Inforce conventional life insurance policies&nbsp;(No. in thousand)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">5,562</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">5,578</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Inforce term life insurance policies&nbsp;(No. in thousand)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">6,261</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">6,306</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Inforce foreign employment term life insurance policies&nbsp;(No. in thousand)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">2,043</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">2070</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Gross Premium Collection (Rs. in billion)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">140.31</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">154.53</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Life insurance gross premium collection (Rs. in billion)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">110.16</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">121.46</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">First premium (Rs. in billion)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">21.54</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">24.34</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Renewal premium (Rs. in billion)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">88.62</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">97.13</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Micro insurance premium (Rs. in billion)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">1.99</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">2.34</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Foreign employment premium (Rs. in billion)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">2.28</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">2.58</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Non-life insurance gross premium (Rs. in billion)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">30.15</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">33.07</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Micro Non-life insurance premium (Rs. in billion)</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">0.17</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">0.21</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Insurance coverage (Conventional + Term + Foreign Employment life insurance Policies) %</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">43.32</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">43.56</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Insurance coverage (Conventional + Term life insurance Policies) %</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">36.65</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">36.81</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Indicators" style="font-size: 10px">Insurance coverage (Conventional life insurance Policies) %</td>
+<td class="gt_row gt_right" headers="Chaitra,2080(as on Mid April 2024)" style="font-size: 10px">17.24</td>
+<td class="gt_row gt_right" headers="Baisakh,2081(as on Mid May 2024)" style="font-size: 10px">17.28</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
 </div>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
@@ -713,12 +1377,12 @@ ASN Member</th>
 </tr>
 <tr class="odd">
 <td><strong>Year-Month</strong></td>
-<td>2024-06-01</td>
+<td>2024-06-02</td>
 </tr>
 </tbody>
 </table>
 <hr>
-<p>In 2024-06-01 the members breakdown in terms of membership type was as follows:</p>
+<p>In 2024-06-02 the members breakdown in terms of membership type was as follows:</p>
 <table class="table">
 <tbody>
 <tr class="odd">
