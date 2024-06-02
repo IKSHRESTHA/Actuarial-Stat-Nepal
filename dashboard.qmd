@@ -119,8 +119,8 @@ pull(p)
 
 ```
 
-## Row {height="30%"}
-
+## Row {height="20%"}
+### Column {width="35%"}
 ```{r}
 #| content: valuebox
 #| title: "Total Member"
@@ -133,26 +133,27 @@ value= total_members
 
 
 ```
-
+### Column {width="35%"}
 ```{r}
 #| content: valuebox
 #| title: "male %"
 
 list(
-icon="male",
-colour="red",
+icon="",
+colour="info",
 value=label_percent(accuracy = 0.1)(male)
 )
 
 ```
-
+### Column {width="30%"}
 ```{r}
 #| content: valuebox
 #| title: "female %"
+#|
 
 list(
-icon="female",
-colour="red",
+icon="",
+color="info",
 value=label_percent(accuracy = 0.1)(female)
 )
 
@@ -160,7 +161,7 @@ value=label_percent(accuracy = 0.1)(female)
 
 
 
-## Row {height="70%"}
+## Row {height="80%"}
 
 ### Column {width="60%"}
 
@@ -210,7 +211,24 @@ df |>
     n = "Number of<br>Member",
     p = "Proportion of<br>ASN Member",
     .fn = md
+  )%>%
+  tab_style(
+    style = cell_borders(
+      sides = "top",
+      color = "black",
+      weight = px(3)  # Bold top border
+    ),
+    locations = cells_body()
+  ) %>%
+  tab_style(
+    style = cell_borders(
+      sides = c("left", "right", "bottom"),
+      color = "black",
+      weight = px(1)  # Simple line for other borders
+    ),
+    locations = cells_body()
   )
+
 ```
 
 ### Column {width="40%"}
@@ -228,4 +246,144 @@ district_plot <- ggplot(df, aes(x = district, fill = district)) +
 
 ggplotly(district_plot)
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Insurance stat
+
+
+## Row {height="20%".flow}
+
+```{r}
+#| content: valuebox
+#| title: "Total Life Insurance"
+
+list(
+icon="",
+color="primary",
+value= 14
+)
+
+
+```
+
+```{r}
+#| content: valuebox
+#| title: "Non Life Insurance"
+
+list(
+icon="",
+colour="info",
+value=14
+)
+
+```
+
+```{r}
+#| content: valuebox
+#| title: "Re Insurance"
+#|
+
+list(
+icon="",
+color="info",
+value=2
+)
+
+```
+```{r}
+#| content: valuebox
+#| title: "Micro Insurance -Life"
+#|
+
+list(
+icon="",
+color="info",
+value=3
+)
+
+```
+
+```{r}
+#| content: valuebox
+#| title: "Micro Insurance - Non Life"
+#|
+
+list(
+icon="",
+color="info",
+value=4
+)
+
+```
+
+
+## Row {height="70%"}
+
+### Column {width="60%"}
+
+```{r}
+#| title: "Nepalses Insurance Overview"
+
+
+library(rvest)
+library(dplyr)
+url <- 'https://nia.gov.np'
+webpage <- read_html(url)
+# Extract the table header
+table_head <- webpage %>%
+  html_node("thead") %>%
+  html_table() 
+
+# Extract the table body
+table_body <- webpage %>%
+  html_node("tbody") %>%
+  html_table() 
+# Convert table_body to a tibble and rename columns using table_head
+colnames(table_body) = colnames(table_head)
+final_df =table_body %>%
+  select(-1)
+
+
+gt_table <- final_df %>%
+  gt() %>%
+  tab_header(
+    title = "Insurance Indicators"
+  ) %>%
+  fmt_number(
+    columns = 2:3,
+    decimals = 2
+  ) %>%
+  cols_label(
+    Indicators = "Indicators"
+  ) %>%
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_column_labels()
+  ) %>%
+  tab_style(
+    style = cell_text(size = px(10)),  # Reduce text size
+    locations = cells_body()
+  )%>%
+  tab_options(
+    table.width = pct(100)
+  )
+
+gt_table
+
+
+```
+
+
 
