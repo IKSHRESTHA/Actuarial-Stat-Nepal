@@ -119,8 +119,8 @@ pull(p)
 
 ```
 
-## Row {height="20%"}
-### Column {width="35%"}
+## Row {height="30%"}
+
 ```{r}
 #| content: valuebox
 #| title: "Total Member"
@@ -133,19 +133,19 @@ value= total_members
 
 
 ```
-### Column {width="35%"}
+
 ```{r}
 #| content: valuebox
 #| title: "male %"
 
 list(
 icon="",
-colour="info",
+colour="primary",
 value=label_percent(accuracy = 0.1)(male)
 )
 
 ```
-### Column {width="30%"}
+
 ```{r}
 #| content: valuebox
 #| title: "female %"
@@ -153,7 +153,7 @@ value=label_percent(accuracy = 0.1)(male)
 
 list(
 icon="",
-color="info",
+color="primary",
 value=label_percent(accuracy = 0.1)(female)
 )
 
@@ -161,9 +161,9 @@ value=label_percent(accuracy = 0.1)(female)
 
 
 
-## Row {height="80%"}
+## Row {height="70%"}
 
-### Column {width="60%"}
+
 
 
 
@@ -263,7 +263,7 @@ ggplotly(district_plot)
 # Insurance stat
 
 
-## Row {height="20%".flow}
+## Row {height="30%".flow}
 
 ```{r}
 #| content: valuebox
@@ -389,6 +389,16 @@ gt_table
 
 
 ```
+### Column {width="40%"}
+
+
+> containt need to be put
 
 
 
+# Read me
+
+## row
+
+
+> This dashboard is in process of build. Build depends on aviliability of data .
