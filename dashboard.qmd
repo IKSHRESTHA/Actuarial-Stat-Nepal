@@ -398,7 +398,7 @@ gt_table
 
 # Read me
 
-## row
+## Row
 
 
 > This dashboard is in process of build. Build depends on aviliability of data .
