@@ -1,11 +1,237 @@
 ---
-title: "Actuarial Stat Nepal"
+title: "ASN Membership"
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    toc: false
+    page-layout: full
+    grid:
+      body-width: 1240px
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+execute:
+  echo: false
+  warning: false
+  message: false
+knitr:
+  opts_chunk:
+    dev: "svg"
+    fig.showtext: true
 ---
 
-This is a Quarto website.
+```{r setup}
+needed <- c(
+  "readr", "dplyr", "tidyr", "forcats", "stringr", "scales", "ggplot2",
+  "ggiraph", "highcharter", "leaflet", "gt", "reactable", "htmltools",
+  "showtext", "sysfonts", "renv"
+)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Ensure a CRAN mirror is set for non-interactive installs.
+options(repos = c(CRAN = "https://cloud.r-project.org"))
 
+# Install missing packages so render succeeds on new machines.
+missing <- needed[!vapply(needed, requireNamespace, logical(1), quietly = TRUE)]
+if (length(missing) > 0) {
+  install.packages(missing)
+}
+#renv::dependencies()
+#renv::snapshot(prompt = FALSE)
+
+source("R/setup.R")
+source("R/charts.R")
+```
+
+```{=html}
+<section class="asn-hero">
+  <div class="asn-eyebrow">Actuarial Society of Nepal</div>
+  <h1>ASN Membership</h1>
+  <p class="lede">A living portrait of our membership — qualification journeys, fields of
+  practice, and reach across Nepal and the world. Explore each facet through the tabs below.</p>
+</section>
+```
+
+```{r valueboxes, results='asis'}
+valuebox_html <- sprintf(paste0(
+  '<div class="asn-grid cols-4">\n',
+  '<div class="value-box"><div class="vb-icon"><i class="bi bi-people-fill"></i></div>',
+  '<div class="big-number">%d</div><div class="big-label">Total Members</div></div>\n',
+  '<div class="value-box"><div class="vb-icon"><i class="bi bi-mortarboard-fill"></i></div>',
+  '<div class="big-number">%d</div><div class="big-label">Qualified Fellows</div></div>\n',
+  '<div class="value-box"><div class="vb-icon"><i class="bi bi-journal-bookmark-fill"></i></div>',
+  '<div class="big-number">%d</div><div class="big-label">Students on the Path</div></div>\n',
+  '<div class="value-box teal"><div class="vb-icon"><i class="bi bi-globe2"></i></div>',
+  '<div class="big-number">%d<span class="unit">%%</span></div>',
+  '<div class="big-label">Hold a Dual Membership</div>',
+  '<div class="vb-note">Across %d bodies worldwide</div></div>\n',
+  '</div>'
+), kpi$total, kpi$fellows, kpi$students, kpi$dual_pct, kpi$countries)
+
+cat(valuebox_html)
+```
+
+::: {.panel-tabset}
+
+## <i class="bi bi-grid-1x2-fill"></i> Overview
+
+::: {.sec-intro}
+<h2><i class="bi bi-grid-1x2-fill"></i> A snapshot of the society</h2>
+<p>The shape of our membership at a glance — how members distribute across qualification
+categories and gender.</p>
+:::
+
+::: {.asn-grid .cols-2}
+::: {.asn-card}
+<h3><i class="bi bi-pie-chart-fill"></i> Membership Category</h3>
+<div class="sub">Fellows, Associates, Students & Affiliates</div>
 ```{r}
-1 + 1
+hc_category()
+```
+:::
+::: {.asn-card}
+<h3><i class="bi bi-gender-ambiguous"></i> Gender Balance</h3>
+<div class="sub">Share of women across the society</div>
+```{r}
+hc_gender()
+```
+```{r results='asis'}
+cat(sprintf('<p class="vb-note" style="margin-top:10px">Women make up %d%% of members — a figure the society is actively working to grow.</p>', kpi$female_pct))
+```
+:::
+:::
+
+## <i class="bi bi-signpost-split-fill"></i> Pathway & Exams
+
+::: {.sec-intro}
+<h2><i class="bi bi-signpost-split-fill"></i> The qualification journey</h2>
+<p>Every actuary advances exam by exam. Here is where our members stand on that long road,
+and which examination systems they study under.</p>
+:::
+
+::: {.asn-card}
+<h3><i class="bi bi-bar-chart-steps"></i> Exam Papers Passed</h3>
+<div class="sub">Distribution of members by number of papers cleared</div>
+```{r}
+gg_papers()
+```
+:::
+
+::: {.asn-grid .cols-2 style="margin-top:16px"}
+::: {.asn-card}
+<h3><i class="bi bi-mortarboard"></i> Highest Education</h3>
+<div class="sub">Academic background of members</div>
+```{r}
+gg_education()
+```
+:::
+::: {.asn-card}
+<h3><i class="bi bi-clipboard-check"></i> Examination System</h3>
+<div class="sub">Which body members sit exams with</div>
+```{r}
+hc_examsys()
+```
+:::
+:::
+
+## <i class="bi bi-briefcase-fill"></i> Professional Practice
+
+::: {.sec-intro}
+<h2><i class="bi bi-briefcase-fill"></i> What we do</h2>
+<p>From life insurance to data science, our members span the breadth of the profession — and
+many carry credentials from international actuarial bodies.</p>
+:::
+
+::: {.asn-grid .cols-2}
+::: {.asn-card}
+<h3><i class="bi bi-diagram-3-fill"></i> Area of Practice</h3>
+<div class="sub">Primary field of work</div>
+```{r}
+gg_practice()
+```
+:::
+::: {.asn-card}
+<h3><i class="bi bi-award-fill"></i> Other Memberships</h3>
+<div class="sub">International bodies our members also belong to</div>
+```{r}
+hc_dual()
+```
+```{r results='asis'}
+cat(sprintf('<p class="vb-note" style="margin-top:10px">%d%% of members hold at least one additional actuarial credential.</p>', kpi$dual_pct))
+```
+:::
+:::
+
+## <i class="bi bi-people-fill"></i> Demographics
+
+::: {.sec-intro}
+<h2><i class="bi bi-people-fill"></i> Our people</h2>
+<p>The generational make-up of the society, and how qualification categories break down by gender.</p>
+:::
+
+::: {.asn-grid .cols-2}
+::: {.asn-card}
+<h3><i class="bi bi-person-lines-fill"></i> Age Groups</h3>
+<div class="sub">Members by age band</div>
+```{r}
+gg_age()
+```
+:::
+::: {.asn-card}
+<h3><i class="bi bi-bar-chart-fill"></i> Category by Gender</h3>
+<div class="sub">Gender composition within each tier</div>
+```{r}
+gg_gender_cat()
+```
+:::
+:::
+
+## <i class="bi bi-geo-alt-fill"></i> Geography
+
+::: {.sec-intro}
+<h2><i class="bi bi-geo-alt-fill"></i> Where we are</h2>
+<p>Members concentrate in the Kathmandu valley but reach every province — and across borders.</p>
+:::
+
+::: {.asn-card}
+<h3><i class="bi bi-map-fill"></i> Members across Nepal</h3>
+<div class="sub">Circle size reflects member count · scroll to zoom · CartoDB dark tiles</div>
+```{r}
+leaflet_nepal()
+```
+```{r results='asis'}
+intl <- sum(members$Province == "International")
+cat(sprintf('<p class="vb-note" style="margin-top:14px">Plus <b>%d</b> members based internationally (London, Mumbai, New York, Sydney, Toronto, Dubai).</p>', intl))
+```
+:::
+
+::: {.asn-card style="margin-top:16px"}
+```{r}
+gt_cities()
+```
+:::
+
+## <i class="bi bi-graph-up-arrow"></i> Growth
+
+::: {.sec-intro}
+<h2><i class="bi bi-graph-up-arrow"></i> The timeline</h2>
+<p>How the society has grown year on year — new members joining and the cumulative total rising.</p>
+:::
+
+::: {.asn-card}
+<h3><i class="bi bi-activity"></i> Membership Growth</h3>
+<div class="sub">Bars: new members per year · Line: cumulative total</div>
+```{r}
+hc_growth()
+```
+:::
+
+:::
+
+```{=html}
+<div class="footer-note">
+  Actuarial Society of Nepal · Built in R with Quarto, ggiraph, highcharter, leaflet & gt ·
+  Hosted free on GitHub Pages<br>
+  Charts are client-side interactive — hover, zoom and explore.
+</div>
 ```

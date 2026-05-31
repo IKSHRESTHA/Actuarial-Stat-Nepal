@@ -1,0 +1,421 @@
+MemberID,Category,Gender,AgeGroup,Education,PapersPassed,ExamSystem,AreaOfPractice,OtherMembership,Province,City,JoinYear
+ASN1000,Student,Male,20-29,Master,3,IAI,Student / Not yet practicing,Independent,Lumbini,Bhairahawa,2022
+ASN1001,Student,Female,40-49,Master,7,IAI,Data Science & Analytics,Independent,Bagmati,Lalitpur,2023
+ASN1002,Student,Male,20-29,Master,0,SOA,Consulting,Independent,Bagmati,Bhaktapur,2023
+ASN1003,Student,Male,50-59,Bachelor,3,IFoA,Consulting,SOA,Bagmati,Kathmandu,2023
+ASN1004,Student,Female,30-39,Bachelor,5,SOA,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2019
+ASN1005,Associate,Male,20-29,Master,11,IFoA,Data Science & Analytics,CAS,Gandaki,Gorkha,2019
+ASN1006,Student,Male,20-29,Master,7,IFoA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2022
+ASN1007,Associate,Male,30-39,Bachelor,12,IAI,Non-Life Insurance,IFoA,Koshi,Itahari,2024
+ASN1008,Student,Male,20-29,Bachelor,3,IAI,Health,Independent,Bagmati,Bhaktapur,2022
+ASN1009,Associate,Male,40-49,Bachelor,10,IAI,Banking & Finance,SOA,Bagmati,Lalitpur,2025
+ASN1010,Affiliate,Male,40-49,Other,2,SOA,Consulting,Independent,Bagmati,Kathmandu,2025
+ASN1011,Student,Male,20-29,Master,6,IAI,Student / Not yet practicing,Independent,Lumbini,Butwal,2023
+ASN1012,Student,Male,30-39,Bachelor,5,IAI,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2023
+ASN1013,Associate,Female,50-59,Bachelor,12,IFoA,Life Insurance,Independent,Bagmati,Lalitpur,2018
+ASN1014,Student,Male,20-29,Master,3,IFoA,Academia,Independent,Gandaki,Gorkha,2017
+ASN1015,Student,Female,40-49,Master,4,IAI,Student / Not yet practicing,SACTUARY,Koshi,Biratnagar,2024
+ASN1016,Fellow,Male,50-59,Bachelor,15,IFoA,Health,Independent,Madhesh,Janakpur,2025
+ASN1017,Associate,Female,30-39,PhD,12,IAI,Life Insurance,SOA,International,Mumbai,2024
+ASN1018,Student,Female,40-49,Bachelor,1,SOA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2021
+ASN1019,Affiliate,Male,30-39,Master,0,IAI,Life Insurance,Independent,Sudurpashchim,Dhangadhi,2021
+ASN1020,Student,Male,50-59,Bachelor,1,IAI,Life Insurance,IAI,Bagmati,Kathmandu,2022
+ASN1021,Student,Female,30-39,Bachelor,6,SOA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2022
+ASN1022,Associate,Female,30-39,Master,8,None yet,Non-Life Insurance,Independent,Bagmati,Lalitpur,2019
+ASN1023,Associate,Male,30-39,Other,10,IFoA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2019
+ASN1024,Student,Male,30-39,Bachelor,7,IFoA,Student / Not yet practicing,Independent,Koshi,Biratnagar,2022
+ASN1025,Student,Male,30-39,Bachelor,3,IAI,Data Science & Analytics,Independent,Madhesh,Birgunj,2023
+ASN1026,Associate,Male,40-49,Bachelor,8,IAI,Student / Not yet practicing,IFoA,Bagmati,Lalitpur,2017
+ASN1027,Fellow,Female,30-39,Bachelor,13,IFoA,Consulting,SOA,Bagmati,Bhaktapur,2025
+ASN1028,Fellow,Male,30-39,Bachelor,14,IAI,Banking & Finance,SOA,Bagmati,Kathmandu,2019
+ASN1029,Student,Female,20-29,PhD,3,IAI,Student / Not yet practicing,Independent,International,Mumbai,2023
+ASN1030,Student,Male,20-29,Bachelor,7,IFoA,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2019
+ASN1031,Student,Male,20-29,Bachelor,5,IAI,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2025
+ASN1032,Affiliate,Female,30-39,Bachelor,3,IFoA,Academia,Independent,Madhesh,Birgunj,2021
+ASN1033,Student,Male,20-29,Master,4,SOA,Enterprise Risk,Independent,Bagmati,Lalitpur,2025
+ASN1034,Fellow,Male,60+,Master,15,IFoA,Data Science & Analytics,Independent,International,London,2019
+ASN1035,Student,Male,20-29,Master,2,IFoA,Student / Not yet practicing,Independent,Lumbini,Bhairahawa,2023
+ASN1036,Affiliate,Male,20-29,Bachelor,3,IAI,Consulting,Independent,Lumbini,Butwal,2025
+ASN1037,Student,Male,20-29,Bachelor,6,IAI,Banking & Finance,SOA,International,Sydney,2024
+ASN1038,Student,Male,40-49,Master,3,IFoA,Student / Not yet practicing,Independent,Lumbini,Bhairahawa,2025
+ASN1039,Student,Male,20-29,Master,8,IFoA,Life Insurance,Independent,Madhesh,Janakpur,2022
+ASN1040,Associate,Male,50-59,Master,9,IAI,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2025
+ASN1041,Student,Male,30-39,Bachelor,7,CAS,Life Insurance,IAI,Bagmati,Bhaktapur,2025
+ASN1042,Student,Male,20-29,Bachelor,6,IAI,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2024
+ASN1043,Affiliate,Female,40-49,Master,4,SOA,Life Insurance,IAI,Bagmati,Bhaktapur,2023
+ASN1044,Student,Male,20-29,Master,4,IAI,Academia,Independent,International,Toronto,2023
+ASN1045,Fellow,Female,50-59,Master,14,IAI,Life Insurance,IFoA,International,Sydney,2023
+ASN1046,Student,Male,20-29,PhD,4,IAI,Student / Not yet practicing,Independent,Koshi,Dharan,2022
+ASN1047,Student,Female,20-29,Bachelor,8,IAI,Academia,Independent,Bagmati,Bhaktapur,2022
+ASN1048,Student,Male,20-29,Master,5,IAI,Life Insurance,Independent,Bagmati,Kathmandu,2023
+ASN1049,Student,Male,30-39,Master,2,IAI,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2022
+ASN1050,Student,Male,40-49,PhD,5,IFoA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2019
+ASN1051,Fellow,Male,50-59,Bachelor,15,IAI,Non-Life Insurance,IFoA,Bagmati,Kathmandu,2024
+ASN1052,Student,Female,20-29,Bachelor,6,IFoA,Pensions & Retirement,Independent,International,London,2021
+ASN1053,Student,Male,30-39,Bachelor,8,IFoA,Life Insurance,IAI,Gandaki,Pokhara,2024
+ASN1054,Affiliate,Female,40-49,Master,0,None yet,Life Insurance,Independent,Bagmati,Kathmandu,2022
+ASN1055,Student,Male,20-29,Bachelor,0,CAS,Life Insurance,IAI,Bagmati,Kathmandu,2022
+ASN1056,Fellow,Male,30-39,Master,14,IFoA,Consulting,IAI,Lumbini,Nepalgunj,2023
+ASN1057,Associate,Male,40-49,Bachelor,8,SOA,Reinsurance,IAI,Sudurpashchim,Dhangadhi,2025
+ASN1058,Associate,Male,30-39,Bachelor,12,IAI,Student / Not yet practicing,IAI,Bagmati,Lalitpur,2020
+ASN1059,Fellow,Female,50-59,Bachelor,15,IFoA,Life Insurance,IFoA,Lumbini,Nepalgunj,2025
+ASN1060,Student,Male,20-29,Master,8,IFoA,Student / Not yet practicing,Independent,Madhesh,Birgunj,2024
+ASN1061,Student,Male,30-39,Other,8,None yet,Reinsurance,Independent,Lumbini,Nepalgunj,2019
+ASN1062,Fellow,Male,50-59,Other,15,IFoA,Student / Not yet practicing,SOA,Madhesh,Janakpur,2023
+ASN1063,Student,Female,40-49,Bachelor,4,IAI,Life Insurance,SOA,Koshi,Itahari,2024
+ASN1064,Student,Male,30-39,Bachelor,3,IAI,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2023
+ASN1065,Fellow,Male,40-49,Master,15,IAI,Reinsurance,SOA,Madhesh,Birgunj,2023
+ASN1066,Student,Female,20-29,Bachelor,4,IAI,Student / Not yet practicing,Independent,Madhesh,Birgunj,2021
+ASN1067,Student,Male,20-29,Other,1,IFoA,Student / Not yet practicing,Independent,Karnali,Surkhet,2019
+ASN1068,Student,Female,20-29,Bachelor,5,IAI,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2024
+ASN1069,Student,Male,20-29,Master,3,IAI,Student / Not yet practicing,Independent,Gandaki,Gorkha,2023
+ASN1070,Associate,Female,30-39,Bachelor,11,IAI,Reinsurance,IFoA,Gandaki,Pokhara,2022
+ASN1071,Student,Male,60+,Master,7,SOA,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2023
+ASN1072,Affiliate,Male,30-39,Bachelor,2,IAI,Student / Not yet practicing,SOA,Bagmati,Kathmandu,2022
+ASN1073,Student,Male,20-29,Bachelor,2,IAI,Student / Not yet practicing,IFoA,Koshi,Dharan,2022
+ASN1074,Student,Male,20-29,Bachelor,1,SOA,Life Insurance,Independent,Bagmati,Kathmandu,2024
+ASN1075,Student,Female,20-29,Bachelor,2,IAI,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2017
+ASN1076,Student,Male,30-39,Bachelor,2,IAI,Enterprise Risk,Independent,Bagmati,Bhaktapur,2019
+ASN1077,Student,Male,20-29,Master,1,IFoA,Student / Not yet practicing,IFoA,Madhesh,Birgunj,2024
+ASN1078,Student,Male,20-29,PhD,5,IAI,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2024
+ASN1079,Student,Male,20-29,Bachelor,7,IAI,Non-Life Insurance,IFoA,Bagmati,Lalitpur,2024
+ASN1080,Student,Male,30-39,Bachelor,0,CAS,Student / Not yet practicing,SOA,Bagmati,Bhaktapur,2022
+ASN1081,Affiliate,Female,20-29,Bachelor,3,None yet,Banking & Finance,SOA,Sudurpashchim,Dhangadhi,2023
+ASN1082,Student,Male,20-29,Master,6,IAI,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2020
+ASN1083,Student,Female,20-29,Master,5,IAI,Student / Not yet practicing,Independent,Gandaki,Gorkha,2025
+ASN1084,Student,Male,20-29,Master,8,IFoA,Student / Not yet practicing,IFoA,Sudurpashchim,Dhangadhi,2023
+ASN1085,Associate,Female,50-59,Bachelor,8,IAI,Reinsurance,Independent,Bagmati,Lalitpur,2025
+ASN1086,Student,Female,20-29,Master,4,IFoA,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2024
+ASN1087,Fellow,Male,30-39,Master,15,IAI,Student / Not yet practicing,SOA,Lumbini,Bhairahawa,2021
+ASN1088,Student,Male,30-39,Bachelor,7,IFoA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2019
+ASN1089,Associate,Male,40-49,Bachelor,9,None yet,Non-Life Insurance,IFoA,Lumbini,Nepalgunj,2020
+ASN1090,Associate,Male,30-39,Bachelor,12,IAI,Life Insurance,CAS,International,Mumbai,2019
+ASN1091,Associate,Male,30-39,Master,11,SOA,Student / Not yet practicing,Independent,International,New York,2019
+ASN1092,Associate,Male,30-39,Bachelor,12,SOA,Banking & Finance,IAI,Bagmati,Kathmandu,2025
+ASN1093,Student,Female,30-39,Bachelor,2,IAI,Student / Not yet practicing,Independent,Lumbini,Butwal,2019
+ASN1094,Student,Female,20-29,Bachelor,1,SOA,Banking & Finance,Independent,Bagmati,Kathmandu,2025
+ASN1095,Student,Female,20-29,Bachelor,2,IAI,Data Science & Analytics,CAS,International,London,2022
+ASN1096,Student,Female,20-29,Bachelor,7,IAI,Enterprise Risk,SOA,International,London,2020
+ASN1097,Student,Male,20-29,Bachelor,4,IAI,Pensions & Retirement,Independent,Bagmati,Bhaktapur,2022
+ASN1098,Student,Male,20-29,Other,5,SOA,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2018
+ASN1099,Associate,Male,40-49,Master,12,IFoA,Data Science & Analytics,IFoA,Karnali,Surkhet,2023
+ASN1100,Fellow,Male,60+,Bachelor,13,IAI,Life Insurance,IFoA,Koshi,Biratnagar,2025
+ASN1101,Associate,Male,40-49,Master,11,IFoA,Pensions & Retirement,Independent,Bagmati,Lalitpur,2023
+ASN1102,Student,Male,20-29,Master,8,IFoA,Student / Not yet practicing,Independent,Koshi,Dharan,2025
+ASN1103,Student,Female,30-39,Master,3,IFoA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2021
+ASN1104,Student,Male,20-29,Bachelor,2,IFoA,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2020
+ASN1105,Student,Female,30-39,Master,6,IAI,Academia,SOA,Bagmati,Kathmandu,2025
+ASN1106,Associate,Female,30-39,Other,10,IFoA,Non-Life Insurance,IAI,Bagmati,Bhaktapur,2022
+ASN1107,Student,Male,20-29,Master,4,IFoA,Student / Not yet practicing,Independent,Madhesh,Janakpur,2023
+ASN1108,Student,Female,30-39,Bachelor,7,CAS,Student / Not yet practicing,Independent,International,New York,2024
+ASN1109,Student,Male,20-29,Bachelor,5,IFoA,Reinsurance,IAI,Gandaki,Pokhara,2020
+ASN1110,Student,Female,30-39,Bachelor,5,IAI,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2019
+ASN1111,Student,Male,60+,Bachelor,2,IAI,Student / Not yet practicing,Independent,International,Mumbai,2019
+ASN1112,Student,Male,20-29,Master,4,IAI,Student / Not yet practicing,IAI,Bagmati,Bhaktapur,2022
+ASN1113,Student,Male,30-39,Other,0,IFoA,Health,Independent,International,Dubai,2022
+ASN1114,Student,Male,20-29,Bachelor,3,SOA,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2024
+ASN1115,Student,Male,20-29,Bachelor,1,SOA,Health,CAS,Gandaki,Gorkha,2018
+ASN1116,Fellow,Female,40-49,Bachelor,15,IFoA,Academia,IFoA,Bagmati,Bhaktapur,2024
+ASN1117,Student,Female,30-39,Bachelor,0,IFoA,Data Science & Analytics,Independent,Bagmati,Kathmandu,2022
+ASN1118,Student,Female,20-29,Master,5,IAI,Non-Life Insurance,IAI,Bagmati,Kathmandu,2022
+ASN1119,Affiliate,Male,20-29,Bachelor,4,IAI,Reinsurance,Independent,Sudurpashchim,Dhangadhi,2020
+ASN1120,Student,Male,20-29,Master,5,IFoA,Student / Not yet practicing,Independent,Lumbini,Nepalgunj,2023
+ASN1121,Student,Male,20-29,Bachelor,0,IFoA,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2021
+ASN1122,Student,Female,30-39,Bachelor,2,IAI,Data Science & Analytics,Independent,Koshi,Itahari,2022
+ASN1123,Student,Male,40-49,Bachelor,1,IAI,Student / Not yet practicing,IAI,Koshi,Biratnagar,2020
+ASN1124,Student,Male,20-29,Bachelor,1,SOA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2023
+ASN1125,Associate,Female,50-59,PhD,9,IAI,Life Insurance,IFoA,Koshi,Dharan,2024
+ASN1126,Student,Female,20-29,Other,1,IAI,Student / Not yet practicing,Independent,International,London,2020
+ASN1127,Affiliate,Male,30-39,Bachelor,2,None yet,Health,Independent,Gandaki,Pokhara,2020
+ASN1128,Fellow,Female,50-59,Master,13,IAI,Health,SOA,Koshi,Dharan,2022
+ASN1129,Associate,Male,30-39,Master,12,IFoA,Consulting,IAI,Bagmati,Bhaktapur,2019
+ASN1130,Associate,Female,40-49,Bachelor,9,IAI,Banking & Finance,Independent,Bagmati,Lalitpur,2023
+ASN1131,Student,Female,20-29,PhD,7,IAI,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2023
+ASN1132,Fellow,Female,50-59,Master,13,IFoA,Pensions & Retirement,IFoA,Lumbini,Bhairahawa,2022
+ASN1133,Student,Female,20-29,Bachelor,2,SOA,Student / Not yet practicing,Independent,International,London,2020
+ASN1134,Student,Male,30-39,Bachelor,8,IAI,Student / Not yet practicing,Independent,Gandaki,Gorkha,2022
+ASN1135,Student,Male,20-29,Bachelor,8,SOA,Student / Not yet practicing,SACTUARY,Bagmati,Bhaktapur,2023
+ASN1136,Student,Male,30-39,Bachelor,7,IFoA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2020
+ASN1137,Fellow,Male,30-39,Bachelor,14,IAI,Student / Not yet practicing,SOA,Madhesh,Janakpur,2023
+ASN1138,Student,Male,30-39,Bachelor,8,IAI,Life Insurance,Independent,International,New York,2024
+ASN1139,Associate,Male,50-59,Bachelor,12,None yet,Academia,IFoA,Bagmati,Kathmandu,2023
+ASN1140,Affiliate,Male,40-49,Bachelor,4,IAI,Life Insurance,Independent,Bagmati,Bhaktapur,2025
+ASN1141,Fellow,Female,50-59,Master,13,SOA,Student / Not yet practicing,Independent,International,Sydney,2023
+ASN1142,Student,Male,40-49,Other,1,IFoA,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2018
+ASN1143,Fellow,Female,50-59,Bachelor,14,None yet,Banking & Finance,IFoA,Bagmati,Bhaktapur,2020
+ASN1144,Student,Male,40-49,Other,1,IAI,Life Insurance,CAS,Bagmati,Kathmandu,2025
+ASN1145,Student,Male,30-39,Bachelor,1,SOA,Student / Not yet practicing,Independent,International,London,2020
+ASN1146,Student,Female,40-49,Bachelor,3,SOA,Student / Not yet practicing,IAI,Bagmati,Kathmandu,2022
+ASN1147,Associate,Male,40-49,Bachelor,11,None yet,Life Insurance,IFoA,Bagmati,Lalitpur,2022
+ASN1148,Affiliate,Male,30-39,Bachelor,2,IAI,Life Insurance,Independent,Bagmati,Bhaktapur,2025
+ASN1149,Student,Female,40-49,Bachelor,5,IAI,Student / Not yet practicing,Independent,Lumbini,Bhairahawa,2025
+ASN1150,Student,Male,20-29,Master,3,IFoA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2024
+ASN1151,Student,Male,20-29,Master,7,IAI,Consulting,Independent,Lumbini,Butwal,2019
+ASN1152,Affiliate,Male,20-29,Bachelor,4,IAI,Enterprise Risk,Independent,Lumbini,Butwal,2021
+ASN1153,Student,Male,20-29,Bachelor,6,IAI,Pensions & Retirement,Independent,Lumbini,Butwal,2024
+ASN1154,Student,Male,30-39,Bachelor,0,SOA,Data Science & Analytics,Independent,Bagmati,Kathmandu,2021
+ASN1155,Student,Female,20-29,Bachelor,4,IAI,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2025
+ASN1156,Student,Female,30-39,Master,2,None yet,Student / Not yet practicing,Independent,Sudurpashchim,Dhangadhi,2022
+ASN1157,Fellow,Male,20-29,Bachelor,14,IAI,Banking & Finance,IAI,Madhesh,Janakpur,2020
+ASN1158,Student,Male,30-39,Master,6,CAS,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2025
+ASN1159,Associate,Female,30-39,Bachelor,11,IAI,Life Insurance,Independent,Bagmati,Kathmandu,2023
+ASN1160,Associate,Male,20-29,Bachelor,9,CAS,Life Insurance,IAI,Madhesh,Birgunj,2021
+ASN1161,Affiliate,Female,30-39,Bachelor,0,IAI,Data Science & Analytics,Independent,Bagmati,Lalitpur,2020
+ASN1162,Fellow,Male,40-49,Bachelor,14,IAI,Enterprise Risk,Independent,Bagmati,Bhaktapur,2024
+ASN1163,Student,Female,20-29,Bachelor,1,IFoA,Student / Not yet practicing,Independent,Koshi,Biratnagar,2022
+ASN1164,Student,Male,40-49,Master,0,IFoA,Health,Independent,Bagmati,Kathmandu,2022
+ASN1165,Associate,Female,40-49,Master,9,IAI,Non-Life Insurance,IFoA,Bagmati,Bhaktapur,2022
+ASN1166,Associate,Female,40-49,Bachelor,11,IAI,Banking & Finance,Independent,Bagmati,Lalitpur,2025
+ASN1167,Student,Female,20-29,Master,4,IAI,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2025
+ASN1168,Student,Male,20-29,Bachelor,0,IFoA,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2020
+ASN1169,Student,Female,20-29,Bachelor,4,SOA,Student / Not yet practicing,IAI,Lumbini,Nepalgunj,2023
+ASN1170,Associate,Male,40-49,Master,10,CAS,Student / Not yet practicing,SOA,Koshi,Itahari,2025
+ASN1171,Fellow,Male,40-49,Bachelor,14,SOA,Health,Independent,Sudurpashchim,Dhangadhi,2024
+ASN1172,Associate,Male,30-39,Master,12,SOA,Life Insurance,IFoA,Lumbini,Butwal,2018
+ASN1173,Associate,Female,40-49,Bachelor,10,IAI,Student / Not yet practicing,IFoA,Lumbini,Nepalgunj,2024
+ASN1174,Student,Female,20-29,Bachelor,2,SOA,Data Science & Analytics,IAI,Bagmati,Lalitpur,2023
+ASN1175,Student,Female,20-29,Bachelor,8,IAI,Student / Not yet practicing,IAI,Sudurpashchim,Dhangadhi,2021
+ASN1176,Student,Male,20-29,Master,2,CAS,Student / Not yet practicing,CAS,Bagmati,Bhaktapur,2019
+ASN1177,Fellow,Female,60+,Bachelor,13,SOA,Banking & Finance,Independent,Koshi,Biratnagar,2023
+ASN1178,Student,Male,30-39,Bachelor,3,IFoA,Banking & Finance,Independent,Bagmati,Lalitpur,2021
+ASN1179,Student,Female,20-29,Master,8,IAI,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2025
+ASN1180,Associate,Female,30-39,Master,9,IFoA,Banking & Finance,IAI,Bagmati,Kathmandu,2023
+ASN1181,Student,Male,20-29,Bachelor,6,IAI,Data Science & Analytics,Independent,Lumbini,Nepalgunj,2024
+ASN1182,Student,Male,30-39,Bachelor,8,IFoA,Student / Not yet practicing,Independent,Gandaki,Pokhara,2024
+ASN1183,Fellow,Male,40-49,PhD,15,IFoA,Pensions & Retirement,Independent,Bagmati,Lalitpur,2020
+ASN1184,Fellow,Female,20-29,Master,14,IFoA,Life Insurance,IAI,Bagmati,Lalitpur,2020
+ASN1185,Student,Female,20-29,Bachelor,3,IFoA,Data Science & Analytics,Independent,Bagmati,Lalitpur,2024
+ASN1186,Affiliate,Male,30-39,Bachelor,3,IAI,Banking & Finance,Independent,International,Mumbai,2023
+ASN1187,Student,Female,40-49,Bachelor,2,SOA,Student / Not yet practicing,Independent,International,Mumbai,2025
+ASN1188,Student,Female,20-29,Bachelor,0,IFoA,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2021
+ASN1189,Associate,Male,20-29,Master,10,IAI,Non-Life Insurance,Independent,Gandaki,Pokhara,2021
+ASN1190,Associate,Male,40-49,Bachelor,12,IAI,Banking & Finance,IFoA,Madhesh,Janakpur,2023
+ASN1191,Student,Male,20-29,Master,3,CAS,Life Insurance,IAI,Sudurpashchim,Dhangadhi,2020
+ASN1192,Associate,Male,40-49,Master,8,IFoA,Student / Not yet practicing,CAS,Bagmati,Bhaktapur,2020
+ASN1193,Fellow,Female,40-49,Master,14,IAI,Pensions & Retirement,IAI,Koshi,Dharan,2024
+ASN1194,Fellow,Male,40-49,Master,15,IAI,Life Insurance,IFoA,Bagmati,Kathmandu,2024
+ASN1195,Affiliate,Female,30-39,PhD,2,IAI,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2025
+ASN1196,Affiliate,Male,40-49,Bachelor,3,SOA,Banking & Finance,Independent,Bagmati,Lalitpur,2024
+ASN1197,Fellow,Male,50-59,Master,14,IFoA,Enterprise Risk,SOA,International,London,2020
+ASN1198,Associate,Male,30-39,PhD,11,IFoA,Non-Life Insurance,Independent,Bagmati,Kathmandu,2023
+ASN1199,Affiliate,Male,30-39,Master,4,None yet,Life Insurance,IFoA,Koshi,Itahari,2022
+ASN1200,Student,Female,20-29,Bachelor,3,SOA,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2019
+ASN1201,Student,Male,20-29,Bachelor,8,IAI,Student / Not yet practicing,IFoA,Bagmati,Lalitpur,2022
+ASN1202,Student,Male,20-29,Bachelor,1,IFoA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2022
+ASN1203,Student,Male,30-39,Bachelor,0,IFoA,Student / Not yet practicing,IFoA,Bagmati,Bhaktapur,2019
+ASN1204,Student,Female,40-49,Bachelor,3,IFoA,Student / Not yet practicing,SACTUARY,Lumbini,Nepalgunj,2025
+ASN1205,Fellow,Female,40-49,Bachelor,14,IAI,Non-Life Insurance,Independent,Bagmati,Kathmandu,2021
+ASN1206,Student,Male,50-59,Bachelor,4,IAI,Non-Life Insurance,Independent,Bagmati,Bhaktapur,2022
+ASN1207,Affiliate,Female,30-39,Other,2,IAI,Enterprise Risk,Independent,Bagmati,Kathmandu,2022
+ASN1208,Student,Male,50-59,Bachelor,2,IAI,Life Insurance,Independent,Bagmati,Bhaktapur,2023
+ASN1209,Associate,Male,30-39,Bachelor,11,IFoA,Pensions & Retirement,SOA,Madhesh,Janakpur,2025
+ASN1210,Associate,Female,20-29,Bachelor,10,IAI,Non-Life Insurance,SACTUARY,Bagmati,Kathmandu,2023
+ASN1211,Student,Female,30-39,Other,7,IAI,Banking & Finance,Independent,Gandaki,Gorkha,2016
+ASN1212,Affiliate,Male,30-39,Bachelor,0,IAI,Non-Life Insurance,SACTUARY,Bagmati,Lalitpur,2022
+ASN1213,Student,Female,20-29,Bachelor,2,IAI,Life Insurance,IAI,Lumbini,Nepalgunj,2022
+ASN1214,Student,Female,20-29,Master,8,SOA,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2021
+ASN1215,Affiliate,Female,20-29,Other,3,SOA,Life Insurance,Independent,Bagmati,Bhaktapur,2023
+ASN1216,Student,Male,20-29,Bachelor,6,IAI,Life Insurance,Independent,Bagmati,Bhaktapur,2025
+ASN1217,Associate,Male,50-59,Bachelor,9,IAI,Enterprise Risk,SOA,Bagmati,Lalitpur,2021
+ASN1218,Student,Male,20-29,Master,4,IAI,Student / Not yet practicing,Independent,International,Sydney,2023
+ASN1219,Associate,Male,40-49,Master,12,IAI,Student / Not yet practicing,IFoA,Gandaki,Pokhara,2023
+ASN1220,Student,Male,20-29,Bachelor,6,IAI,Student / Not yet practicing,SOA,International,Mumbai,2021
+ASN1221,Student,Male,30-39,Bachelor,8,IAI,Health,Independent,Bagmati,Kathmandu,2025
+ASN1222,Fellow,Male,30-39,PhD,15,None yet,Non-Life Insurance,SOA,Bagmati,Bhaktapur,2025
+ASN1223,Associate,Female,40-49,Bachelor,10,IAI,Consulting,SOA,Koshi,Dharan,2024
+ASN1224,Student,Male,20-29,Bachelor,0,IAI,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2022
+ASN1225,Associate,Male,30-39,Master,9,IAI,Health,IAI,Lumbini,Butwal,2025
+ASN1226,Student,Male,40-49,Master,3,IAI,Student / Not yet practicing,Independent,International,Toronto,2023
+ASN1227,Fellow,Female,50-59,Bachelor,14,IFoA,Reinsurance,IAI,Koshi,Dharan,2025
+ASN1228,Fellow,Female,40-49,Bachelor,15,SOA,Consulting,SOA,Bagmati,Bhaktapur,2020
+ASN1229,Fellow,Male,50-59,Master,14,IAI,Non-Life Insurance,Independent,Lumbini,Nepalgunj,2021
+ASN1230,Fellow,Male,50-59,Bachelor,14,IAI,Consulting,Independent,Lumbini,Butwal,2022
+ASN1231,Associate,Male,30-39,Bachelor,10,IFoA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2021
+ASN1232,Associate,Male,20-29,Master,9,IFoA,Student / Not yet practicing,IFoA,Bagmati,Kathmandu,2021
+ASN1233,Affiliate,Male,30-39,Bachelor,2,IFoA,Enterprise Risk,Independent,Bagmati,Kathmandu,2022
+ASN1234,Student,Male,30-39,Bachelor,7,IFoA,Non-Life Insurance,IAI,Bagmati,Lalitpur,2024
+ASN1235,Fellow,Male,50-59,Master,15,IAI,Life Insurance,IFoA,Madhesh,Birgunj,2022
+ASN1236,Student,Female,20-29,Bachelor,2,None yet,Banking & Finance,Independent,Bagmati,Kathmandu,2023
+ASN1237,Student,Male,20-29,Bachelor,4,IAI,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2022
+ASN1238,Associate,Male,40-49,Master,9,IAI,Consulting,Independent,Bagmati,Lalitpur,2017
+ASN1239,Student,Male,50-59,Bachelor,1,IFoA,Non-Life Insurance,Independent,Lumbini,Bhairahawa,2023
+ASN1240,Affiliate,Female,30-39,Bachelor,1,IAI,Banking & Finance,Independent,Madhesh,Birgunj,2024
+ASN1241,Associate,Male,30-39,Bachelor,11,IAI,Student / Not yet practicing,IAI,International,New York,2022
+ASN1242,Fellow,Male,30-39,Bachelor,14,IAI,Student / Not yet practicing,IFoA,Bagmati,Bhaktapur,2025
+ASN1243,Student,Male,20-29,Master,6,IFoA,Student / Not yet practicing,Independent,Lumbini,Bhairahawa,2023
+ASN1244,Affiliate,Male,40-49,Master,2,IAI,Data Science & Analytics,Independent,Bagmati,Kathmandu,2022
+ASN1245,Student,Female,20-29,Bachelor,1,IFoA,Student / Not yet practicing,Independent,Lumbini,Butwal,2023
+ASN1246,Student,Male,30-39,Bachelor,5,IAI,Student / Not yet practicing,Independent,Koshi,Biratnagar,2020
+ASN1247,Student,Male,30-39,Master,0,IFoA,Student / Not yet practicing,Independent,Madhesh,Janakpur,2022
+ASN1248,Fellow,Male,30-39,Bachelor,15,IAI,Student / Not yet practicing,IAI,Bagmati,Bhaktapur,2024
+ASN1249,Student,Female,30-39,Master,0,IAI,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2025
+ASN1250,Student,Female,30-39,Bachelor,0,SOA,Student / Not yet practicing,IFoA,Koshi,Itahari,2021
+ASN1251,Fellow,Male,60+,PhD,15,IFoA,Consulting,CAS,Bagmati,Bhaktapur,2020
+ASN1252,Student,Female,20-29,Bachelor,1,IFoA,Data Science & Analytics,CAS,Gandaki,Gorkha,2025
+ASN1253,Associate,Male,50-59,Master,9,SOA,Banking & Finance,IAI,Koshi,Dharan,2025
+ASN1254,Student,Male,30-39,Bachelor,6,IAI,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2023
+ASN1255,Student,Female,50-59,Bachelor,3,IAI,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2021
+ASN1256,Student,Male,20-29,Bachelor,5,IFoA,Life Insurance,Independent,Koshi,Biratnagar,2023
+ASN1257,Student,Female,20-29,Bachelor,6,IFoA,Student / Not yet practicing,IFoA,Gandaki,Gorkha,2023
+ASN1258,Student,Male,30-39,Master,6,IAI,Student / Not yet practicing,IFoA,Madhesh,Janakpur,2016
+ASN1259,Student,Female,20-29,Bachelor,0,IAI,Student / Not yet practicing,Independent,Sudurpashchim,Dhangadhi,2019
+ASN1260,Associate,Male,50-59,Bachelor,10,None yet,Student / Not yet practicing,SOA,Koshi,Biratnagar,2024
+ASN1261,Fellow,Male,30-39,Bachelor,14,IFoA,Health,Independent,Madhesh,Birgunj,2024
+ASN1262,Associate,Male,30-39,Master,9,SOA,Student / Not yet practicing,Independent,International,Mumbai,2025
+ASN1263,Student,Female,20-29,Bachelor,6,IAI,Data Science & Analytics,IFoA,Bagmati,Lalitpur,2023
+ASN1264,Student,Male,20-29,Bachelor,2,SOA,Consulting,Independent,Lumbini,Nepalgunj,2025
+ASN1265,Associate,Female,50-59,Master,9,IFoA,Academia,Independent,Bagmati,Bhaktapur,2024
+ASN1266,Student,Male,40-49,Master,1,IAI,Data Science & Analytics,Independent,Bagmati,Lalitpur,2021
+ASN1267,Student,Male,30-39,Bachelor,3,IFoA,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2022
+ASN1268,Student,Male,20-29,Master,1,IFoA,Student / Not yet practicing,Independent,Madhesh,Janakpur,2023
+ASN1269,Associate,Female,40-49,Master,9,IAI,Enterprise Risk,Independent,Bagmati,Kathmandu,2025
+ASN1270,Student,Male,20-29,Bachelor,7,IAI,Student / Not yet practicing,Independent,Gandaki,Gorkha,2024
+ASN1271,Student,Male,20-29,Bachelor,4,IAI,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2019
+ASN1272,Student,Male,20-29,Other,2,IAI,Student / Not yet practicing,Independent,Madhesh,Birgunj,2022
+ASN1273,Associate,Male,40-49,Bachelor,12,IAI,Student / Not yet practicing,IFoA,Bagmati,Bhaktapur,2021
+ASN1274,Associate,Male,30-39,Bachelor,11,IFoA,Banking & Finance,IFoA,Madhesh,Janakpur,2024
+ASN1275,Student,Female,30-39,Bachelor,1,IFoA,Life Insurance,IAI,Lumbini,Butwal,2018
+ASN1276,Student,Male,30-39,Master,8,IFoA,Student / Not yet practicing,Independent,Karnali,Surkhet,2021
+ASN1277,Fellow,Female,60+,Bachelor,15,IFoA,Academia,Independent,Bagmati,Kathmandu,2017
+ASN1278,Student,Female,20-29,Master,7,IFoA,Data Science & Analytics,SOA,Bagmati,Bhaktapur,2021
+ASN1279,Associate,Female,40-49,Master,8,IFoA,Student / Not yet practicing,SOA,Madhesh,Birgunj,2025
+ASN1280,Student,Male,30-39,Master,0,IAI,Student / Not yet practicing,Independent,International,London,2023
+ASN1281,Fellow,Female,30-39,Bachelor,14,IFoA,Life Insurance,IFoA,Bagmati,Kathmandu,2017
+ASN1282,Fellow,Male,40-49,Bachelor,15,IFoA,Pensions & Retirement,Independent,Bagmati,Bhaktapur,2025
+ASN1283,Affiliate,Male,40-49,Bachelor,3,IAI,Academia,Independent,Bagmati,Bhaktapur,2024
+ASN1284,Student,Male,30-39,Master,4,IAI,Student / Not yet practicing,IFoA,Lumbini,Nepalgunj,2021
+ASN1285,Associate,Female,30-39,Bachelor,10,IAI,Data Science & Analytics,SOA,Bagmati,Kathmandu,2021
+ASN1286,Student,Male,40-49,Master,3,IAI,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2019
+ASN1287,Student,Male,20-29,Bachelor,4,IFoA,Student / Not yet practicing,IFoA,Koshi,Itahari,2021
+ASN1288,Fellow,Male,30-39,Bachelor,14,IAI,Enterprise Risk,IFoA,Bagmati,Kathmandu,2021
+ASN1289,Student,Female,20-29,Bachelor,0,None yet,Health,SOA,Bagmati,Bhaktapur,2023
+ASN1290,Affiliate,Male,20-29,Other,4,IAI,Banking & Finance,Independent,Bagmati,Lalitpur,2025
+ASN1291,Student,Male,30-39,Other,8,IAI,Student / Not yet practicing,Independent,Lumbini,Bhairahawa,2023
+ASN1292,Student,Male,20-29,Bachelor,1,SOA,Life Insurance,Independent,International,Sydney,2023
+ASN1293,Fellow,Male,40-49,Master,13,IFoA,Health,IAI,Gandaki,Gorkha,2025
+ASN1294,Student,Female,20-29,Bachelor,1,IAI,Data Science & Analytics,IFoA,International,Dubai,2020
+ASN1295,Associate,Male,30-39,Bachelor,9,SOA,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2025
+ASN1296,Student,Male,20-29,Bachelor,6,IAI,Data Science & Analytics,Independent,Madhesh,Birgunj,2023
+ASN1297,Associate,Male,30-39,Bachelor,12,IAI,Banking & Finance,IFoA,Bagmati,Kathmandu,2025
+ASN1298,Student,Male,30-39,Master,5,IFoA,Student / Not yet practicing,Independent,Koshi,Itahari,2023
+ASN1299,Fellow,Male,30-39,Bachelor,13,IFoA,Life Insurance,IAI,Madhesh,Birgunj,2023
+ASN1300,Student,Male,20-29,Master,7,IAI,Student / Not yet practicing,IFoA,Madhesh,Birgunj,2024
+ASN1301,Fellow,Female,50-59,Master,14,IAI,Life Insurance,Independent,Bagmati,Kathmandu,2023
+ASN1302,Associate,Male,40-49,PhD,12,IAI,Non-Life Insurance,IFoA,Bagmati,Lalitpur,2023
+ASN1303,Associate,Male,20-29,Bachelor,11,SOA,Banking & Finance,SOA,Lumbini,Nepalgunj,2020
+ASN1304,Affiliate,Female,40-49,Master,0,IAI,Life Insurance,Independent,Bagmati,Kathmandu,2022
+ASN1305,Student,Male,50-59,Bachelor,8,IFoA,Student / Not yet practicing,IAI,Sudurpashchim,Dhangadhi,2023
+ASN1306,Student,Male,30-39,Master,7,IAI,Data Science & Analytics,IAI,Gandaki,Pokhara,2021
+ASN1307,Student,Female,20-29,Bachelor,0,IAI,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2024
+ASN1308,Student,Male,30-39,Bachelor,0,IFoA,Student / Not yet practicing,IAI,Bagmati,Bhaktapur,2023
+ASN1309,Student,Female,30-39,Bachelor,4,IAI,Student / Not yet practicing,Independent,Sudurpashchim,Dhangadhi,2025
+ASN1310,Affiliate,Male,30-39,Bachelor,1,IAI,Health,IAI,Bagmati,Bhaktapur,2025
+ASN1311,Student,Male,30-39,Master,8,IAI,Student / Not yet practicing,IAI,International,Mumbai,2024
+ASN1312,Student,Male,20-29,Master,2,IAI,Student / Not yet practicing,SACTUARY,Bagmati,Lalitpur,2021
+ASN1313,Student,Female,20-29,Bachelor,1,IFoA,Pensions & Retirement,Independent,International,London,2019
+ASN1314,Fellow,Male,50-59,Master,14,SOA,Life Insurance,Independent,Bagmati,Kathmandu,2025
+ASN1315,Fellow,Male,50-59,Master,13,IFoA,Consulting,Independent,Bagmati,Lalitpur,2021
+ASN1316,Fellow,Female,30-39,Bachelor,13,IAI,Life Insurance,Independent,Bagmati,Bhaktapur,2019
+ASN1317,Student,Female,30-39,Master,8,IAI,Consulting,IFoA,Koshi,Biratnagar,2024
+ASN1318,Affiliate,Male,40-49,Bachelor,4,SOA,Health,IFoA,Bagmati,Lalitpur,2022
+ASN1319,Associate,Male,20-29,Bachelor,12,IFoA,Reinsurance,IFoA,Bagmati,Kathmandu,2023
+ASN1320,Student,Female,30-39,Bachelor,1,IFoA,Health,CAS,International,Sydney,2025
+ASN1321,Student,Female,40-49,Bachelor,6,IAI,Non-Life Insurance,SOA,Bagmati,Lalitpur,2024
+ASN1322,Student,Female,20-29,Master,3,IAI,Life Insurance,SACTUARY,Bagmati,Bhaktapur,2024
+ASN1323,Student,Male,20-29,Master,2,IFoA,Consulting,Independent,Bagmati,Kathmandu,2022
+ASN1324,Fellow,Male,30-39,Bachelor,14,None yet,Non-Life Insurance,SOA,Bagmati,Lalitpur,2025
+ASN1325,Associate,Male,20-29,Master,12,IAI,Data Science & Analytics,Independent,Bagmati,Kathmandu,2021
+ASN1326,Student,Female,20-29,Master,8,IAI,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2018
+ASN1327,Student,Male,20-29,Bachelor,0,IAI,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2023
+ASN1328,Student,Male,30-39,Master,8,IFoA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2021
+ASN1329,Fellow,Female,30-39,Master,14,IFoA,Pensions & Retirement,IFoA,Bagmati,Lalitpur,2023
+ASN1330,Student,Male,20-29,Other,3,IFoA,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2021
+ASN1331,Affiliate,Female,40-49,Bachelor,4,IAI,Life Insurance,Independent,Bagmati,Kathmandu,2023
+ASN1332,Student,Male,20-29,Bachelor,8,IFoA,Health,IFoA,Bagmati,Kathmandu,2024
+ASN1333,Student,Male,30-39,Master,0,IAI,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2017
+ASN1334,Associate,Female,30-39,Bachelor,12,IFoA,Reinsurance,IFoA,Gandaki,Pokhara,2020
+ASN1335,Fellow,Male,40-49,Master,14,SOA,Banking & Finance,Independent,Bagmati,Bhaktapur,2017
+ASN1336,Associate,Male,30-39,Bachelor,8,IFoA,Pensions & Retirement,IAI,Koshi,Itahari,2023
+ASN1337,Student,Male,20-29,Bachelor,2,IFoA,Student / Not yet practicing,SOA,Bagmati,Kathmandu,2025
+ASN1338,Associate,Female,30-39,Bachelor,12,IAI,Student / Not yet practicing,CAS,International,London,2025
+ASN1339,Student,Female,20-29,Master,2,IFoA,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2025
+ASN1340,Fellow,Female,50-59,PhD,13,IAI,Life Insurance,IAI,Koshi,Itahari,2023
+ASN1341,Affiliate,Male,50-59,Master,0,IFoA,Non-Life Insurance,Independent,Bagmati,Bhaktapur,2022
+ASN1342,Fellow,Male,30-39,Bachelor,14,IFoA,Data Science & Analytics,IFoA,Madhesh,Janakpur,2023
+ASN1343,Student,Male,20-29,Bachelor,7,IAI,Student / Not yet practicing,Independent,Madhesh,Birgunj,2025
+ASN1344,Associate,Male,20-29,Master,10,IAI,Non-Life Insurance,IFoA,Gandaki,Pokhara,2017
+ASN1345,Student,Male,30-39,Bachelor,2,IFoA,Student / Not yet practicing,Independent,Madhesh,Janakpur,2016
+ASN1346,Fellow,Female,60+,Master,15,None yet,Student / Not yet practicing,IFoA,Madhesh,Janakpur,2016
+ASN1347,Associate,Male,40-49,Master,10,IFoA,Non-Life Insurance,SOA,International,Toronto,2023
+ASN1348,Student,Female,30-39,Bachelor,3,SOA,Student / Not yet practicing,Independent,Gandaki,Pokhara,2024
+ASN1349,Student,Male,30-39,Master,3,IFoA,Student / Not yet practicing,IAI,Bagmati,Kathmandu,2025
+ASN1350,Student,Male,20-29,Master,5,IFoA,Student / Not yet practicing,Independent,Madhesh,Birgunj,2016
+ASN1351,Student,Female,30-39,Master,3,IFoA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2025
+ASN1352,Affiliate,Female,50-59,Master,4,IFoA,Life Insurance,Independent,Lumbini,Nepalgunj,2019
+ASN1353,Student,Male,20-29,Bachelor,4,IAI,Banking & Finance,Independent,Bagmati,Lalitpur,2022
+ASN1354,Associate,Male,40-49,Master,8,IAI,Banking & Finance,IFoA,Bagmati,Lalitpur,2025
+ASN1355,Associate,Male,30-39,Bachelor,12,IFoA,Student / Not yet practicing,IFoA,Madhesh,Janakpur,2021
+ASN1356,Student,Male,20-29,Master,7,IFoA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2025
+ASN1357,Associate,Male,50-59,Master,11,SOA,Pensions & Retirement,Independent,Bagmati,Kathmandu,2021
+ASN1358,Student,Female,20-29,Bachelor,6,SOA,Data Science & Analytics,Independent,Bagmati,Kathmandu,2022
+ASN1359,Student,Male,40-49,Master,6,IAI,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2024
+ASN1360,Fellow,Male,30-39,Other,15,SOA,Reinsurance,Independent,Bagmati,Bhaktapur,2022
+ASN1361,Associate,Male,50-59,Bachelor,9,IAI,Non-Life Insurance,IFoA,Bagmati,Lalitpur,2023
+ASN1362,Student,Male,30-39,Master,5,IAI,Banking & Finance,Independent,International,Sydney,2022
+ASN1363,Student,Female,30-39,Master,5,CAS,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2023
+ASN1364,Student,Male,30-39,Bachelor,0,SOA,Data Science & Analytics,Independent,Gandaki,Gorkha,2024
+ASN1365,Associate,Male,20-29,Master,9,IAI,Health,IFoA,Madhesh,Birgunj,2021
+ASN1366,Associate,Female,30-39,Bachelor,9,IAI,Health,Independent,Bagmati,Kathmandu,2025
+ASN1367,Student,Female,20-29,Bachelor,1,IAI,Pensions & Retirement,Independent,Gandaki,Gorkha,2021
+ASN1368,Associate,Male,40-49,Master,9,IAI,Banking & Finance,IFoA,Bagmati,Kathmandu,2022
+ASN1369,Student,Male,20-29,Bachelor,6,IAI,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2019
+ASN1370,Student,Male,30-39,Bachelor,0,IAI,Life Insurance,IFoA,Bagmati,Bhaktapur,2023
+ASN1371,Student,Female,20-29,Bachelor,7,IAI,Student / Not yet practicing,Independent,Lumbini,Bhairahawa,2025
+ASN1372,Student,Male,30-39,Master,7,IFoA,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2025
+ASN1373,Student,Female,30-39,Master,5,None yet,Data Science & Analytics,Independent,Lumbini,Nepalgunj,2023
+ASN1374,Student,Male,20-29,Other,8,IAI,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2025
+ASN1375,Student,Male,20-29,Master,1,IAI,Student / Not yet practicing,Independent,Bagmati,Bhaktapur,2022
+ASN1376,Student,Male,20-29,Bachelor,0,IAI,Academia,Independent,Bagmati,Kathmandu,2018
+ASN1377,Associate,Female,20-29,Master,12,IFoA,Non-Life Insurance,IAI,Koshi,Dharan,2023
+ASN1378,Student,Female,30-39,Bachelor,8,IFoA,Non-Life Insurance,Independent,International,Sydney,2025
+ASN1379,Associate,Male,30-39,PhD,8,None yet,Life Insurance,SOA,Koshi,Biratnagar,2017
+ASN1380,Associate,Male,30-39,Master,9,IFoA,Data Science & Analytics,SOA,Bagmati,Kathmandu,2021
+ASN1381,Associate,Male,20-29,Bachelor,8,IFoA,Banking & Finance,Independent,Madhesh,Birgunj,2023
+ASN1382,Fellow,Female,40-49,Bachelor,14,IAI,Non-Life Insurance,IAI,Madhesh,Birgunj,2023
+ASN1383,Fellow,Female,50-59,Bachelor,15,IAI,Non-Life Insurance,Independent,Koshi,Dharan,2022
+ASN1384,Student,Female,20-29,Bachelor,4,IFoA,Life Insurance,Independent,Bagmati,Lalitpur,2023
+ASN1385,Student,Male,40-49,Bachelor,6,IFoA,Student / Not yet practicing,IAI,Bagmati,Lalitpur,2022
+ASN1386,Student,Male,30-39,Bachelor,3,SOA,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2023
+ASN1387,Associate,Male,50-59,Bachelor,10,IFoA,Non-Life Insurance,IAI,Bagmati,Kathmandu,2019
+ASN1388,Fellow,Female,60+,Bachelor,14,IAI,Student / Not yet practicing,IFoA,Bagmati,Lalitpur,2024
+ASN1389,Student,Female,50-59,Bachelor,6,None yet,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2022
+ASN1390,Student,Female,40-49,Master,1,IAI,Student / Not yet practicing,SOA,Bagmati,Lalitpur,2024
+ASN1391,Student,Male,20-29,Master,1,SOA,Student / Not yet practicing,Independent,Madhesh,Janakpur,2025
+ASN1392,Student,Female,20-29,Bachelor,4,IFoA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2021
+ASN1393,Affiliate,Male,30-39,Master,1,IFoA,Academia,SOA,Sudurpashchim,Dhangadhi,2023
+ASN1394,Student,Male,20-29,Bachelor,5,IAI,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2020
+ASN1395,Associate,Male,30-39,Master,12,IAI,Life Insurance,Independent,Bagmati,Kathmandu,2025
+ASN1396,Affiliate,Male,40-49,Master,0,None yet,Student / Not yet practicing,SOA,Bagmati,Kathmandu,2019
+ASN1397,Student,Female,20-29,Bachelor,8,IFoA,Banking & Finance,Independent,Bagmati,Lalitpur,2019
+ASN1398,Student,Male,20-29,Bachelor,5,IAI,Enterprise Risk,Independent,Koshi,Biratnagar,2022
+ASN1399,Student,Female,20-29,Bachelor,0,IAI,Student / Not yet practicing,Independent,International,New York,2022
+ASN1400,Fellow,Female,40-49,Bachelor,13,IAI,Pensions & Retirement,SOA,Bagmati,Kathmandu,2021
+ASN1401,Student,Male,20-29,Bachelor,2,IFoA,Banking & Finance,CAS,Koshi,Dharan,2020
+ASN1402,Affiliate,Male,20-29,Bachelor,2,IAI,Pensions & Retirement,IFoA,Lumbini,Nepalgunj,2020
+ASN1403,Associate,Male,50-59,PhD,11,IFoA,Consulting,CAS,Sudurpashchim,Dhangadhi,2021
+ASN1404,Student,Male,20-29,Bachelor,7,IAI,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2024
+ASN1405,Fellow,Female,50-59,Bachelor,15,IAI,Non-Life Insurance,IFoA,Bagmati,Kathmandu,2023
+ASN1406,Student,Female,20-29,Master,6,SOA,Student / Not yet practicing,Independent,Bagmati,Lalitpur,2024
+ASN1407,Associate,Male,30-39,Bachelor,12,SOA,Non-Life Insurance,IAI,Karnali,Surkhet,2022
+ASN1408,Student,Male,20-29,Bachelor,8,IAI,Student / Not yet practicing,Independent,Bagmati,Kathmandu,2022
+ASN1409,Associate,Male,40-49,Bachelor,8,CAS,Enterprise Risk,IAI,Bagmati,Kathmandu,2019
+ASN1410,Student,Female,30-39,Bachelor,3,IAI,Student / Not yet practicing,Independent,Koshi,Biratnagar,2021
+ASN1411,Student,Male,30-39,Master,4,IAI,Student / Not yet practicing,Independent,Karnali,Surkhet,2021
+ASN1412,Student,Male,30-39,Bachelor,2,SOA,Academia,Independent,Madhesh,Birgunj,2025
+ASN1413,Student,Female,40-49,Bachelor,2,None yet,Banking & Finance,Independent,Bagmati,Lalitpur,2024
+ASN1414,Student,Female,20-29,Bachelor,7,IFoA,Life Insurance,Independent,Madhesh,Birgunj,2022
+ASN1415,Student,Male,20-29,Bachelor,6,IFoA,Data Science & Analytics,IFoA,Koshi,Itahari,2021
+ASN1416,Student,Male,20-29,Bachelor,3,IFoA,Life Insurance,Independent,Bagmati,Bhaktapur,2023
+ASN1417,Associate,Male,40-49,Bachelor,10,IFoA,Non-Life Insurance,IFoA,Bagmati,Lalitpur,2025
+ASN1418,Student,Female,60+,Bachelor,4,SOA,Student / Not yet practicing,Independent,International,Dubai,2024
+ASN1419,Fellow,Male,40-49,Bachelor,14,CAS,Data Science & Analytics,IFoA,Bagmati,Kathmandu,2018

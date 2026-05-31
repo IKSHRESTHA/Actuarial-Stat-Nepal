@@ -1,20 +1,10 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "Actuarial Stat Nepal"
-  sidebar:
-    contents:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-      - href: dashboard.qmd
-        text: Dashoard
-
-format:
-  html:
-    theme: [sandstone,custom.scss]
-    toc: true
-
-
+  title: "ASN Membership Dashboard"
+  description: "Public membership dashboard for the Actuarial Society of Nepal"
+  favicon: favicon.svg
+  page-navigation: false
+  navbar: false
